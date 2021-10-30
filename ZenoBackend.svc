@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ZenoBlogg.ZenoBackend" CodeBehind="ZenoBackend.svc.cs" %>

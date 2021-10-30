@@ -1,0 +1,77 @@
+#carouselExampleCaptions{
+	width: 100%;
+	
+	margin: 0 auto;
+
+}
+
+#body{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 980px) {
+  #body {
+    	width: 100%;
+	margin: 0;
+  }
+}
+
+#aboutCard{
+
+  width: 40%;
+
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-size: 25px;
+}
+
+
+
+
+.jumbotron{
+	margin: 5%;
+}
+
+.carousel-item{
+	height: 605px;
+}
+.carousel-item img{
+	height: 100%;
+}
+
+.newsletter {
+padding: 5% 0;
+
+}
+
+.newsletter .content {
+max-width: 80%;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.newsletter .content h2 {
+color: #243c4f;
+margin-bottom: 5%; 
+}
+
+
+.newsletter .content .form-control {
+height: 6%;
+border-color: #ffffff;
+border-radius:0;
+}
+.newsletter .content.form-control:focus {
+box-shadow: none;
+border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+min-height: 6%; 
+border-radius:0;
+background: #243c4f;
+color: #fff;
+font-weight:600;
+}
