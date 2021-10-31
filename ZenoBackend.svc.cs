@@ -81,6 +81,8 @@ namespace ZenoBlogg
                     row.Date = Date;
                     row.Body = Body;
                     row.Author = Author;
+                    row.Image = row.Image;
+                    row.Id = row.Id;
                 }
             }
 

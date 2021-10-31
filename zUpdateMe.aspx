@@ -20,25 +20,25 @@
             <div class="card" style="background-color: rgba(100, 100, 100, 0.5);">
                 <div class="card-header bg-dark text-white">UPDATE YOUR ARTICLE</div>
                 <div class="card-body">
-                    <form>
+                    <form runat="server">
                         <div class="form-group">
                             <label for="name mb-5">Author</label>
-                            <input type="text" class="form-control" id="author" aria-describedby="emailHelp" placeholder="Enter Author Name" required>
+                            <input type="text" class="form-control" runat="server" id="author" aria-describedby="emailHelp" placeholder="Enter Author Name" required>
                         </div>
                         <div class="form-group"  style="margin-top: 10px;">
                             <label for="email">Date</label>
-                            <input type="text" class="form-control" id="date" aria-describedby="emailHelp" placeholder="Enter Date" required>
+                            <input type="text" class="form-control" runat="server" id="date" aria-describedby="emailHelp" placeholder="Enter Date" required>
                         </div>
                        <div class="form-group"  style="margin-top: 10px;">
                             <label for="email">Title</label>
-                            <input type="text" class="form-control" id="title" aria-describedby="emailHelp" placeholder="Enter Title" required>
+                            <input type="text" class="form-control" runat="server" id="title" aria-describedby="emailHelp" placeholder="Enter Title" required>
                         </div>
                         <div class="form-group"  style="margin-top: 10px;">
                             <label for="message">Body</label>
-                            <textarea class="form-control" id="body" placeholder="Enter Body Content" rows="6" required></textarea>
+                            <textarea class="form-control" runat="server" id="body" placeholder="Enter Body Content" rows="6" required></textarea>
                         </div>
                         <div class="mx-auto" style="margin-top: 10px;">
-                        <button type="submit" class="btn btn-dark text-right">Update</button></div>
+                        <asp:button ID="btn5" OnClick="update_article" Text="Update" runat="server" class="btn btn-dark text-right"></asp:button></div>
                     </form>
                 </div>
             </div>

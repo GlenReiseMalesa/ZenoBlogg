@@ -26,30 +26,15 @@
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">#</th>
+     
       <th scope="col">Title</th>
       <th scope="col"></th>
       <th scope="col"></th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td><button type="button" class="btn btn-primary">EDIT</button></td>
-      <td><button type="button" class="btn btn-danger">DELETE</button></td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob adfvhjas fksjbf djb sfbds fusij gjsdgb sboguse j</td>
-      <td><button type="button" class="btn btn-primary">EDIT</button></td>
-      <td><button type="button" class="btn btn-danger">DELETE</button></td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
+  <tbody id="displayArticles" runat="server">
+
+
   </tbody>
 </table>
 

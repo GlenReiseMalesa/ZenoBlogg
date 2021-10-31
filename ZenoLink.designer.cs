@@ -20,16 +20,21 @@ namespace ZenoBlogg
 	using System.Linq.Expressions;
 	using System.ComponentModel;
 	using System;
-	
-	
-	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="ZenoDatabase")]
+    using System.Web.UI.WebControls;
+
+    [global::System.Data.Linq.Mapping.DatabaseAttribute(Name="ZenoDatabase")]
 	public partial class ZenoLinkDataContext : System.Data.Linq.DataContext
 	{
 		
 		private static System.Data.Linq.Mapping.MappingSource mappingSource = new AttributeMappingSource();
-		
-    #region Extensibility Method Definitions
-    partial void OnCreated();
+
+        internal void createArticle(string string1, string title, string string2, object date, string string3, object body, string string4, Image image, string string5, object author)
+        {
+            throw new NotImplementedException();
+        }
+
+        #region Extensibility Method Definitions
+        partial void OnCreated();
     partial void InsertArticle(Article instance);
     partial void UpdateArticle(Article instance);
     partial void DeleteArticle(Article instance);
