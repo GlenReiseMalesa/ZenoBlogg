@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Index.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="ZenoBlogg.Index1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
- <div class="bg-light" style="background-image: url('img/img2.jpg');height: 80vh;background-repeat: no-repeat;background-size: 100% 100%;padding-top:10%;margin-top:5%;">
+ <div >
     <!-- home main -->
 <section class="jumbotron text-center" >
     <div class="container">

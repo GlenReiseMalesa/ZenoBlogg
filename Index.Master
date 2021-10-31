@@ -16,30 +16,30 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
 </head>
-<body class="bg-light">
+<body style="background-color :#4b3d8f; color:#37a987;">
 
 	<div id="body">
 
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">ZenoBlogg</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg " style="margin-bottom:15%;" >
+  <div class="container-fluid" >
+    <a class="navbar-brand" href="index.aspx" style="color:white;">ZenoBlogg</a>
+    <button class="navbar-toggler" style="border-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" ></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
       <ul class="navbar-nav " >
         <li class="nav-item " >
-          <a class="nav-link active" aria-current="page" href="index.aspx">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.aspx" style="color:white;">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#articles">Articles</a>
+          <a class="nav-link" href="#articles" style="color:white;">Articles</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Contact.aspx">Contact</a>
+          <a class="nav-link" href="Contact.aspx" style="color:white;">Contact</a>
         </li>
         <li class="nav-item" >
-          <a class="nav-link" href="About.aspx">About</a>
+          <a class="nav-link" href="About.aspx" style="color:white;">About</a>
         </li>
       </ul>
     </div>

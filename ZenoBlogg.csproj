@@ -107,7 +107,11 @@
     <Content Include="isekai.jpg" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
+    <Content Include="zDeleteMe.aspx" />
     <Content Include="ZenoBackend.svc" />
+    <Content Include="zManageMe.aspx" />
+    <Content Include="zPostMe.aspx" />
+    <Content Include="zUpdateMe.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -147,6 +151,13 @@
     </Compile>
     <Compile Include="IZenoBackend.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="zDeleteMe.aspx.cs">
+      <DependentUpon>zDeleteMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zDeleteMe.aspx.designer.cs">
+      <DependentUpon>zDeleteMe.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ZenoBackend.svc.cs">
       <DependentUpon>ZenoBackend.svc</DependentUpon>
     </Compile>
@@ -154,6 +165,27 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ZenoLink.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="zManageMe.aspx.cs">
+      <DependentUpon>zManageMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zManageMe.aspx.designer.cs">
+      <DependentUpon>zManageMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zPostMe.aspx.cs">
+      <DependentUpon>zPostMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zPostMe.aspx.designer.cs">
+      <DependentUpon>zPostMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zUpdateMe.aspx.cs">
+      <DependentUpon>zUpdateMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zUpdateMe.aspx.designer.cs">
+      <DependentUpon>zUpdateMe.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
