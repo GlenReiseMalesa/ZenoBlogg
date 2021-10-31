@@ -23,14 +23,16 @@ namespace ZenoBlogg
 			foreach (Article row in articles)
 			{
 				
-				display += "<div class='col-lg-3 mb-4'>";
+				display += "<div class='col-lg-3 mb-4' style='width:75vh;'>";
 				
-				display += "<div class='card'>";
-				display += "<img src = '"+row.Image+"' alt='' class='card-img-top'>";
+				display += "<div class='card' style='height:60vh;'>";
+				display += "<img style='width:100%;height:50%' src='"+row.Image+"' alt='' class='card-img-top'>";
 				display += "<div class='card-body'>";
 				display += "<h5 class='card-title'>"+row.Title+"</h5>";
 				display += "<div class='text-muted'>";
-				display += "<p class='card-text'>"+row.Body+"</p>";
+				
+				string result = new string(row.Body.Take(35).ToArray());
+				display += "<p class='card-text'>"+result+"....</p>";
 
 				display += "</div>";
 				display += "<p class='card-text'>Author : "+row.Author+"</p>";

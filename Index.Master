@@ -16,7 +16,7 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
 </head>
-<body style="background-color :#4b3d8f; color:#37a987;">
+<body style="background-color :#4b3d8f; color:#37a987;font-family:Cursive;">
 
 	<div id="body">
 

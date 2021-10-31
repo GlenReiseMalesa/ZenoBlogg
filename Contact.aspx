@@ -21,7 +21,7 @@
                             <label for="name mb-5">Subject</label>
                             <input type="text" class="form-control" runat="server" id="name" aria-describedby="emailHelp" placeholder="Enter subject" required/>
                         </div>
->
+
                         <div class="form-group"  style="margin-top: 10px;">
                             <label for="message">Message</label>
                             <textarea class="form-control" id="message" runat="server" rows="6" required></textarea>
